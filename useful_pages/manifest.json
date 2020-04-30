@@ -6,7 +6,7 @@
         "default_popup": "popup.html",
         "default_icon": "images/icon_32.png"
     },
-    "permissions": ["activeTab", "identity"],
+    "permissions": ["identity", "storage"],
     "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
     "manifest_version": 2,
     "default_locale": "en"

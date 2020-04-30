@@ -1,7 +1,9 @@
 body {
     height: 150px;
-    width: 200px;
+    width: 300px;
     overflow-y: scroll;
+    background-color: #660099;
+    color: #fff;
 }
 
 h1 {
@@ -15,10 +17,24 @@ ul {
 
 ul li {
     font-size: 20px;
+    height: 35px;
 }
 
 a {
     text-decoration: none;
+    color: #fff;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    width: 95%;
+    height: 20px;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 #title {

@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="html">
     <head>
+        <title></title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="css/popup.css">
     </head>
     <body>
         <div id="title">
         </div>
+
+        <input type="text" id="filter" placeholder="Search tools">
+
+        </input>
 
         <ul id="pages">
         </ul>
@@ -17,6 +22,8 @@
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
         <script src="config_prod.js"></script>
+        <script src="js/storage.js"></script>
+        <script src="js/utils.js"></script>
         <script src="js/popup.js"></script>
     </body>
 </html>
