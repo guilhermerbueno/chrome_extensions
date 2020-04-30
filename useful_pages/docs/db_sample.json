@@ -1,0 +1,29 @@
+{
+    "pages": [
+        {
+            "tag" : "prod",
+            "title" : "Grafana",
+            "url" : "https://www.grafana.com.br"
+        },
+        {
+            "tag" : "prod",
+            "title" : "Kibana",
+            "url" : "https://www.kibana.com.br"
+        },
+        {
+            "tag" : "prod",
+            "title" : "Spinnaker",
+            "url" : "https://www.spinnaker.com.br"
+        },
+        {
+            "tag" : "prod",
+            "title" : "SonarQube",
+            "url" : "https://www.sonarqube.com.br"
+        },
+        {
+            "tag" : "dev",
+            "title" : "Kibana",
+            "url" : "https://www.dev.com.br"
+        }
+    ]
+}

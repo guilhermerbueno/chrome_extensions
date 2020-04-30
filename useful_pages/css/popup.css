@@ -1,0 +1,32 @@
+body {
+    height: 150px;
+    width: 200px;
+    overflow-y: scroll;
+}
+
+h1 {
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#loading {
+    vertical-align: middle;
+    text-align: center;
+}
